@@ -1,0 +1,30 @@
+Hello my name is Jason Hall and this is my first script with the programming lauguage lua i hope you like it !
+
+how to apply the weed seeds into the store 
+
+first you want to Add this script Item to qb-core/shared/items.lua copy and paste!
+["weed_seeds"] = {
+    name = "weed_seeds",
+    label = "Weed Seeds",
+    weight = 100,
+    type = "item",
+    image = "weed_seeds.png",
+    unique = false,
+    useable = false,
+    description = "A handful of weed seeds, perfect for growing your own stash.",
+},
+
+Now that you added that into the correct spot next step is to add the image you want to use for the seed 
+Add Image for Inventory UI (Optional)
+Navigate to qb-inventory/html/images/
+
+Add an image named weed_seeds.png
+
+Make sure you ensure qb-weedstore in the main server cfg file on your server 
+
+
+Restart the server, and the item will appear properly in the inventory.
+
+Good luck :0 created by Jason Hall jr
+
+
